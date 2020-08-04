@@ -19,5 +19,3 @@ commonlibs <- function(pathlib = "C:/R_Libraries" ) {
   print(sessionInfo())
 }
 
-
-commonlibs()
