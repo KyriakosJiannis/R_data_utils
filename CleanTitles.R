@@ -24,7 +24,7 @@ CleanTitles <- function (inData, Symbol, Print = TRUE) {
 
   # Validate inputs
   if (is.data.frame(inData)) {
-    message("CleanTitles function replaced dataframe titles names")
+    #message("CleanTitles function replaced dataframe titles names")
   }  else {
     stop("Input has to be a dataframe")
   }
@@ -45,7 +45,7 @@ CleanTitles <- function (inData, Symbol, Print = TRUE) {
     message('to:')
     print(names(outData)) # print final df titles
   }
-  message('successfully executed')
+  #message('successfully executed')
   
   return(outData)
 }
