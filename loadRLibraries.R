@@ -21,7 +21,7 @@ loadRLibraries <- function(packages) {
   search.packages <- search.packages[
     grepl(pattern = "package:", x = search.packages)]
   
-  if(!require("tm", character.only = FALSE))  {
+  if(!require("tm", character.only = FALSE)) {
     install.packages("tm")}
   
   library(tm)
@@ -33,7 +33,7 @@ loadRLibraries <- function(packages) {
   # load the libraries
   if (length(packages) > 0) {
     
-    Install.Package <- function (packages) {
+    Install.Package <- function(packages) {
       # browser()
       unavailable <- setdiff(packages, rownames(installed.packages()))
       if (length(unavailable) > 0) {install.packages(unavailable)}

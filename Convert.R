@@ -1,6 +1,6 @@
 #' Convert data.frame variables to other types with dplyr: mutate_if
 #' 
-#' @param ... the dataframe to convert characters to factors or factos to characters
+#' @param ... the dataframe to convert characters to factors or factors to characters
 #' @param .inData Data frame identifier.
 #' @param .convert: character 
 #'              Factor2Char: Converts all factor variables to characters

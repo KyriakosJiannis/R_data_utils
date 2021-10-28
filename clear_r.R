@@ -1,10 +1,10 @@
-# Script to clear R enviroment 
+# Script to clear R environment 
 
 # rm plots 
 dev.off()   
 # graphics.off() 
 
-# rm workspace
+# rm workplace
 rm(list = ls())  
 
 # clear console
